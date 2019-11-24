@@ -52,10 +52,10 @@ def search(listname,key):
         print("Element ",key ," not found")
         
 #Driver program
-choice=0
-while(choice>=0):
+
+while(1):
     
-    print(" 1-> Insert\n 2-> Display\n 3-> Searching\n -1-> Exit\n")
+    print(" 1-> Insert\n 2-> Display\n 3-> Searching\n 4-> Exit\n")
     choice=int(input("Enter your Choice: "))
     
     if choice==1:
